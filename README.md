@@ -83,24 +83,28 @@ solar-irradiance-prediction/
 
 1. Create virtual environment:
 
+```text
 python3 -m venv venv
 source venv/bin/activate
-
+```
 
 2. Install dependencies:
 
+```text
 pip install -r requirements.txt
-
+```
 
 3. Run the app:
 
+```text
 streamlit run app/app.py
-
+```
 
 4. Open in browser:
 
+```text
 http://localhost:8501
-
+```
 
 ---
 

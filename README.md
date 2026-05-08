@@ -57,26 +57,26 @@ A Streamlit-based app supports three modes:
 
 ---
 
+```markdown
 ## Project Structure
 
-'''text
+```text
 solar-irradiance-prediction/
 │
 ├── app/
-│ └── app.py
+│   └── app.py
 │
 ├── model/
-│ └── xgboost_irradiance_v1.joblib
+│   └── xgboost_irradiance_v1.joblib
 │
 ├── notebooks/
-│ └── project.ipynb
+│   └── project.ipynb
 │
 ├── extras/
-│ └── experimental files
+│   └── experimental files
 │
 ├── requirements.txt
 └── README.md
-
 
 ---
 

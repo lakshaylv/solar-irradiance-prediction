@@ -59,6 +59,7 @@ A Streamlit-based app supports three modes:
 
 ## Project Structure
 
+```text
 solar-irradiance-prediction/
 │
 ├── app/
@@ -75,6 +76,7 @@ solar-irradiance-prediction/
 │
 ├── requirements.txt
 └── README.md
+```
 
 
 ## How to Run

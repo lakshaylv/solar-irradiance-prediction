@@ -41,7 +41,7 @@ st.markdown("Predict solar irradiance using ML + weather data")
 # =========================
 # Load Model
 # =========================
-model = joblib.load("xgboost_irradiance_v1.joblib")
+model = joblib.load("model/xgboost_irradiance_v1.joblib")
 
 # =========================
 # Core Prediction

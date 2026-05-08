@@ -49,12 +49,36 @@ final model through an interactive web application.
 
 ## Web Application
 
-A Streamlit-based app supports three modes:
+The Streamlit app allows users to predict solar irradiance in three modes.  
+The model is trained on historical data (2022–2023), and different modes use this information in different ways.
 
-- **Current** → Live weather data  
-- **Historical** → Past data + daily solar curve  
-- **Manual** → Custom input simulation  
+---
 
+### Current Mode
+
+Uses live weather data (temperature and cloud cover) along with current time features to estimate real-time solar irradiance.
+
+![Current Mode](assets/current.png)
+
+---
+
+### Historical Mode
+
+Uses archived weather data for a selected past date and hour, and visualizes the full-day solar irradiance curve.
+
+This is called *historical* because it uses actual recorded weather conditions rather than simulated or real-time inputs.
+
+![Historical Mode](assets/historical.png)
+
+---
+
+### Manual Mode
+
+Allows users to manually input temperature, cloud cover, and time to simulate irradiance.
+
+This is useful for future scenarios or "what-if" analysis where actual weather data is not available.
+
+![Manual Mode](assets/manual.png)
 ---
 
 ## Project Structure

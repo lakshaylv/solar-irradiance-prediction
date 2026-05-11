@@ -49,7 +49,8 @@ final model through an interactive web application.
 
 ## Web Application
 
-Live App: https://solar-irradiance-prediction-ffeqqvcsdjbypqpqrfrwqr.streamlit.app/
+[![Streamlit App](https://streamlit.io)](https://solar-irradiance-prediction-ffeqqvcsdjbypqpqrfrwqr.streamlit.app/)
+
 The Streamlit app allows users to predict solar irradiance in three modes.  
 The model is trained on historical data (2022–2023), and different modes use this information in different ways.
 
